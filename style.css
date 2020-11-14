@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.travel_mainDiv hr {
+    width: 100%;
+}
+.travel_mainDiv h5 , .travel_mainDiv p{
+    margin-left: 20px;
+}
+
+#achievementsID {
+    padding-bottom: 10px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+#footer{
+    height: 20px;
+    background:radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);;
+}
+#AA{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+#ZG{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+#NV{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+#alumniList1{
+    margin-left: 50px;
+}
+#alumniList2{
+    margin-top: 52px;
+    margin-left: 150px;
+}
+#alumniList3{
+    margin-top: 36px;
+    margin-left: 100px;
+}
